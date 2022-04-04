@@ -9,4 +9,6 @@ RUN pip install --no-cache-dir --upgrade pip && \
 
 COPY . .
 
-CMD [ "python", "./your-daemon-or-script.py" ]
+CMD [ "python", "./app.py" ]
+
+#docker build -t wardbeyens/mental-support-needed-scanner:0.0.2 .

@@ -5,7 +5,6 @@ from datetime import datetime
 from tinydb import TinyDB
 import schedule
 import time
-import requests
 
 
 db = TinyDB('./db.json')
